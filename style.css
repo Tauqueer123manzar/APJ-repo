@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: bisque;
+    border: 1px solid black;
+}
+.box{
+    width:850px;
+    height: 1200px;
+    background-color: lightskyblue;
+    border: 10px solid black;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin-left: 250px;
+    overflow-x: hidden;
+}
+.image-container,img{
+    width: 300px;
+    height: 32 0px;
+   
+}
+.top_section h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+}
+.top-section ,h4{
+ text-align: end;
+}
+.top_section{
+    margin-top: 100px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.image-container{
+    border-radius:50%;
+    overflow: hidden;
+}
+.text{
+   margin-top: 4%;
+}
+.text h2{
+    font-size: 50px;
+    font-weight: 400;
+    margin-left:30px ;
+    margin-top: 20px;
+}
+.text h4{
+    font-size: 20px;
+   font-family: serif;
+    text-align: left;
+    margin-left: 30px;
+    letter-spacing: 2px;
+}
+.Biogrophy{
+    margin-top: 50px;
+
+}
+.Biogrophy h3{
+    margin-bottom: 20px;
+}
+.Biogrophy ul {
+    margin-left: 50px;
+}
